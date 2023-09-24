@@ -1,0 +1,19 @@
+*{
+    background-color: aqua;
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    position: sticky;
+    background-color: burlywood;
+    
+}
+.class {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    flex-direction: row;
+
+}
