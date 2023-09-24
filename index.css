@@ -1,19 +1,28 @@
 *{
-    background-color: aqua;
+    background-color: rgb(21, 165, 237);
 }
 
 #navbar{
     display: flex;
-    align-items: center;
-    text-decoration: none;
+    /* align-items: center; */
+    /* text-decoration: none; */
     position: sticky;
-    background-color: burlywood;
+    /* background-color: rgb(197, 255, 5); */
+
     
 }
 .class {
     display: flex;
     align-items: center;
+    margin: 13px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0px;
+    text-align: center;
     text-decoration: none;
-    flex-direction: row;
-
+    color: black;
+    /* align-items: center; */
+}
+#home{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
