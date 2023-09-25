@@ -2,6 +2,11 @@
     background-color: rgb(31, 30, 117);
     color: #ffff;
 }
+
+
+
+
+
 /* Navigation section */
 #navbar{
     display: flex;
@@ -13,28 +18,34 @@
     /* position: fixed; */
     position: fixed;
     margin-top: -150px;
-
+    /* border: rgb(0, 68, 255); */
+    justify-self: ;
+    
     
 }
+
 .class {
     display: flex;
     align-items: center;
-    margin: 13px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    /* padding: 0px; */
+    margin: 13px; 
     text-align: center;
     text-decoration: none;
     color: rgb(255, 255, 255);
     /* align-items: center; */
     font-size: 45px;
     padding-right: 3px;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-family: 'Skranji', cursive;
 }
+
+
+
 
 
 /* home section */
 #home{
     text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Calligraffitti', cursive;
     margin-top: 200px;
     font-size: 70px;
 }
@@ -43,17 +54,51 @@
     height: 700px;
 }
 
+
+
+
 /* Test section */
 #Test{
     text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Calligraffitti', cursive;
     margin-top: 200px;
     font-size: 70px;
     /* background-color: chartreuse; */
 }
 #Test img{
-    padding-top: 20px;
+    /* padding-top: 200px; */
     align-items: center;
     height: 1000px;
-    margin-top: 500px;
+    /* margin-top: 500px; */
+}
+.button{
+    align-items: center;
+    padding: 6px 20px;
+    border: 2px solid white;
+    background-color: burlywood;
+    color: white;
+    color: rgb(0, 0, 0);
+    margin: 15px;
+    font-size: 50px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-family: 'Skranji', cursive;
+}
+
+
+
+
+
+/* Articles */
+#Articles{
+    text-align: center;
+    font-family: 'Calligraffitti', cursive;
+    margin-top: 200px;
+    font-size: 70px;
+}
+#Articles img{
+    /* padding-top: 200px; */
+    align-items: center;
+    height: 1000px;
+    /* margin-top: 500px; */
 }
