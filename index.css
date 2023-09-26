@@ -1,6 +1,6 @@
 *{
-    background-color: rgb(31, 30, 117);
-    color: #ffff;
+    /* background-color: rgb(31, 30, 117); */
+    color: #000000;
 }
 
 
@@ -27,7 +27,7 @@
     margin: 13px; 
     text-align: center;
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     /* align-items: center; */
     font-size: 45px;
     padding-right: 3px;
@@ -45,10 +45,13 @@
     font-family: 'Calligraffitti', cursive;
     margin-top: 200px;
     font-size: 70px;
+   /* background-image: url(https://zenquotes.io/api/image ); */
+   /* height: 1000px; */
 }
 #home img{
-    margin-top: 12px;
-    height: 700px;
+    margin-top: 15px;
+    height: 1000px;
+    justify-content: center;
 }
 
 
@@ -80,6 +83,7 @@
     border-radius: 25px;
     cursor: pointer;
     font-family: 'Skranji', cursive;
+    /* border: #000000; */
 }
 
 
@@ -98,4 +102,28 @@
     align-items: center;
     height: 1000px;
     /* margin-top: 500px; */
+}
+
+
+/* Anxiety&Stress */
+
+#AnxietyStress{
+    text-align: center;
+    font-family: 'Calligraffitti', cursive;
+    margin-top: 200px;
+    font-size: 70px;
+
+}
+#AnxietyStress img{
+    align-items: center;
+    height: 1000px;
+}
+
+
+/* Reviews */
+#reviews{
+    text-align: center;
+    font-family: 'Calligraffitti', cursive;
+    margin-top: 200px;
+    font-size: 70px;
 }
