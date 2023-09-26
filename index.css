@@ -2,7 +2,9 @@
     /* background-color: rgb(31, 30, 117); */
     color: #000000;
 }
-
+html{
+    scroll-behavior: smooth;
+}
 
 
 
@@ -12,7 +14,7 @@
     display: flex;
     /* align-items: center; */
     /* text-decoration: none; */
-    position: sticky;
+    /* position: sticky; */
     /* background-color: rgb(197, 255, 5); */
     /* margin-left: 120px; */
     /* position: fixed; */
