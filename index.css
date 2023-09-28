@@ -1,5 +1,5 @@
 *{
-    /* background-color: rgb(31, 30, 117); */
+    background-color: rgb(120, 201, 255);
     color: #000000;
 }
 html{
@@ -14,12 +14,11 @@ html{
     display: flex;
     /* align-items: center; */
     /* text-decoration: none; */
-    /* position: sticky; */
+    position: sticky;
     /* background-color: rgb(197, 255, 5); */
     /* margin-left: 120px; */
     /* position: fixed; */
-    position: fixed;
-    margin-top: -150px;
+    /* margin-top: -150px; */
     /* border: rgb(0, 68, 255); */
 }
 
@@ -47,15 +46,23 @@ html{
     font-family: 'Calligraffitti', cursive;
     margin-top: 200px;
     font-size: 70px;
-   /* background-image: url(https://zenquotes.io/api/image ); */
-   /* height: 1000px; */
+   /* background-image: url( https://source.unsplash.com/random/); */
+   justify-content: center;
+   /* opacity: 0.5; */
 }
 #home img{
-    margin-top: 15px;
-    height: 1000px;
-    justify-content: center;
+    /* height: 1000px; */
+    /* margin-top: 30px; */
+    height: 1080px;
+    width: 1920px;
+    opacity: 2;
+ } 
+.primary{
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-display: 123;
+    
 }
-
 
 
 
@@ -67,11 +74,11 @@ html{
     font-size: 70px;
     /* background-color: chartreuse; */
 }
-#Test img{
-    /* padding-top: 200px; */
-    align-items: center;
-    height: 1000px;
-    /* margin-top: 500px; */
+#Test img{ 
+    /* margin-top: 150px; */
+    height: 1080px;
+    width: 1920px;
+    opacity: 2;
 }
 .button{
     align-items: center;
@@ -91,34 +98,45 @@ html{
 
 
 
-
-/* Articles */
-#Articles{
+/* Solution */
+#suggestion{
     text-align: center;
     font-family: 'Calligraffitti', cursive;
     margin-top: 200px;
     font-size: 70px;
 }
-#Articles img{
-    /* padding-top: 200px; */
-    align-items: center;
-    height: 1000px;
-    /* margin-top: 500px; */
+#solution img{
+   
+    /* margin-top: 150px; */
+    height: 1080px;
+    width: 1920px;
+    opacity: 2;
+}
+#suggestion ul{
+    text-align: left;
+    margin-left: 20px;
+    font-weight: bold;
+}
+#suggestion ul :hover{
+  color: yellow;
 }
 
 
-/* Anxiety&Stress */
 
-#AnxietyStress{
+/* suggestions */
+
+#solution{
     text-align: center;
     font-family: 'Calligraffitti', cursive;
     margin-top: 200px;
     font-size: 70px;
 
 }
-#AnxietyStress img{
-    align-items: center;
-    height: 1000px;
+#Solution img{
+    /* margin-top: 150px; */
+    height: 1080px;
+    width: 1920px;
+    opacity: 2;
 }
 
 
@@ -127,5 +145,11 @@ html{
     text-align: center;
     font-family: 'Calligraffitti', cursive;
     margin-top: 200px;
-    font-size: 70px;
+    font-size: 200px;
+}
+#text{
+    height: 800px;
+    width: 1900px;
+    font-size: 50px;
+    /* text-size-adjust: 2100px; */
 }
