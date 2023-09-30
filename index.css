@@ -1,15 +1,15 @@
- *{
-    /*background-color: rgb(120, 201, 255); */
-    
-    /* background-color: #ddd0c8; */
-    color: #000000;
-    /* margin: 0;
-    padding: 0;
-    box-sizing: border-box; */
+/* font-family: 'DM Sans', sans-serif;
+font-family: 'Bebas Neue', sans-serif; */
+/* font-family: 'Calligraffitti', cursive; */
+
+
+*{
+     color: #000000;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
+
 html{
     scroll-behavior: smooth;
 }
@@ -20,29 +20,18 @@ html{
 /* Navigation section */
 #navbar{
     display: flex;
-    /* align-items: center; */
-    /* text-decoration: none; */
     position: sticky;
-    /* background-color: rgb(197, 255, 5); */
-    /* margin-left: 120px; */
-    /* position: fixed; */
-    /* margin-top: -150px; */
-    /* border: rgb(0, 68, 255); */
     background-color: #ddd0c8;
 }
 
 .class {
     display: flex;
-    /* align-items: center; */
     margin: 13px; 
     text-align: center;
     text-decoration: none;
     color: rgb(0, 0, 0);
-    /* align-items: center; */
-    font-size: 45px;
+    font-size: 1vw;
     padding-right: 3px;
-    /* font-family: 'DM Sans', sans-serif;
-    font-family: 'Bebas Neue', sans-serif; */
     font-family: 'Roboto', sans-serif;
 }
 
@@ -55,9 +44,8 @@ html{
     text-align: center;
     font-family: 'Calligraffitti', cursive;
     margin-top: 2px;
-    font-size: 70px;
+    font-size: 2vw;
     justify-content: center;
-    /* background-size: 100% 100%; */
     font-family: 'Bebas Neue', sans-serif;
     font-family: 'DM Sans', sans-serif;
     background-image: url(bg8.jpg);
@@ -71,7 +59,7 @@ html{
     margin-bottom: 20px;
     font-weight: bold;
     font-display: 123;
-    font-size: 70px ;
+    font-size: 3vw;
     color: #323232;
     text-align: center;
 }
@@ -81,18 +69,22 @@ html{
 /* Test section */
 #Test{
     text-align: center;
-    /* font-family: 'Calligraffitti', cursive; */
-    margin-top: -60px;
+    justify-content: center;
+    margin-top: -40px;
     font-size: 70px;
-    /* background-color: chartreuse; */
     background-image: url(bg8.jpg);
     font-family: 'DM Sans', sans-serif;
+    display: flex;
+    flex-direction: row;
+
 }
-#Test img{ 
-    /* margin-top: 150px; */
-    height: 1080px;
-    width: 1920px;
-    opacity: 2;
+.testpng{
+    height: 1000px;
+    width: 1000px;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   
 }
 .button{
     align-items: center;
@@ -102,11 +94,13 @@ html{
     color: white;
     color: rgb(0, 0, 0);
     margin: 15px;
-    font-size: 50px;
+    font-size: 1.5vw;
     border-radius: 25px;
     cursor: pointer;
     font-family: 'Skranji', cursive;
-    /* border: #000000; */
+    width: 15vw;
+    height: 5vw;
+    margin-top: 400px;
 }
 
 
@@ -115,16 +109,10 @@ html{
 /* Suggestion */
 #suggestion{
     text-align: center;
-    /* font-family: 'Calligraffitti', cursive; */
     margin-top: -50px;
-    font-size: 70px;
+    font-size: 2vw;
     background-image: url(bg8.jpg);
     font-family: 'DM Sans', sans-serif;
-}
-#video{
-    text-align: center;
-    align-items: center;
-    /* margin-left: 80px; */
 }
 #suggestion ul{
     text-align: left;
@@ -132,15 +120,15 @@ html{
     font-weight: bold;
 }
 #suggestion ul :hover{
-  /* color: yellow; */
   color: rgb(0, 114, 95);
-  /* cursor: progress ; */
 }
 .song{
     text-align: left;
+    margin-top: 3vw;
 }
 .video{
     text-align: justify;
+    margin-top: 4vw;
 }
 .songpng{
     height: 0100px;
@@ -151,35 +139,48 @@ html{
     width: 100px;
 }
 #Videos{
+    margin-top: -200px;
+    margin-bottom: -50px;
     margin-left: 500px;
     margin-top: -500px;
 }
 
 
-/* solution*/
 
+/* solution*/
 #solution{
     text-align: center;
-    /* font-family: 'Calligraffitti', cursive; */
     margin-top: -50px;
     font-size: 70px;
     font-family: 'DM Sans', sans-serif;
     background-image: url(bg8.jpg);
 
 }
-#solution img{
-    /* margin-top: 150px; */
-    height: 1080px;
-    width: 1920px;
-    opacity: 2;
+
+.dhead{
+    margin-bottom: -8px;
+    font-size: 1.5vw;
+}
+.head{
+    font-size: 2vw;
+}
+.Depressionsolution{
+    text-align: left;
+    margin-left: 2vw;
+    margin-bottom: -20px;
+}
+.solutiontext{
+    font-size: 1.5vw;
+}
+#normalsolution{
+    text-align: left;
 }
 
 
 /* Reviews */
 #reviews{
     text-align: center;
-    /* font-family: 'Calligraffitti', cursive; */
-    margin-top: -60px;
+    margin-top: -50px;
     font-size: 150px;
     background-image: url(bg8.jpg);
     font-family: 'DM Sans', sans-serif;
@@ -188,5 +189,4 @@ html{
     height: 800px;
     width: 1900px;
     font-size: 50px;
-    /* text-size-adjust: 2100px; */
 }
