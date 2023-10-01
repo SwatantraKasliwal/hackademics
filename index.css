@@ -8,6 +8,10 @@ font-family: 'Bebas Neue', sans-serif; */
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    
+}
+body{
+    background-color: #ddd0c8;
 }
 
 html{
@@ -49,12 +53,23 @@ html{
     font-family: 'Bebas Neue', sans-serif;
     font-family: 'DM Sans', sans-serif;
     background-image: url(bg8.jpg);
+    display: flex;
+    flex-direction: column;
 }
-#home img{
-    height: 1080px;
-    width: 1920px;
-    opacity: 2;
+.image{
+    /* align-items: center; */
+    height: 18vw;
+    width: 18vw;
+    /* flex-direction: column; */
+    margin-top: -1vw;
+    /* margin-left:8.5vw;
+    margin-right: 8.5vw; */
  } 
+ #himage1{
+    align-items: center;
+    height: 18vw;
+    width: 18vw;
+ }
 .primary{
     margin-bottom: 20px;
     font-weight: bold;
@@ -70,7 +85,7 @@ html{
 #Test{
     text-align: center;
     justify-content: center;
-    margin-top: -40px;
+    margin-top: 0.5vw;
     font-size: 70px;
     background-image: url(bg8.jpg);
     font-family: 'DM Sans', sans-serif;
@@ -79,8 +94,8 @@ html{
 
 }
 .testpng{
-    height: 1000px;
-    width: 1000px;
+    height: 20vw;
+    width: 20vw;
    justify-content: center;
    align-items: center;
    text-align: center;
@@ -100,7 +115,7 @@ html{
     font-family: 'Skranji', cursive;
     width: 15vw;
     height: 5vw;
-    margin-top: 400px;
+    margin-top: 8vw;
 }
 
 
@@ -109,7 +124,7 @@ html{
 /* Suggestion */
 #suggestion{
     text-align: center;
-    margin-top: -50px;
+    margin-top: -2.2vw;
     font-size: 2vw;
     background-image: url(bg8.jpg);
     font-family: 'DM Sans', sans-serif;
@@ -122,27 +137,30 @@ html{
 #suggestion ul :hover{
   color: rgb(0, 114, 95);
 }
+#mainvideo{
+    height: 40vw;
+    width: 60vw;
+}
 .song{
     text-align: left;
     margin-top: 3vw;
 }
 .video{
     text-align: justify;
-    margin-top: 4vw;
+    margin-top: 15vw;
 }
 .songpng{
-    height: 0100px;
-    width: 100px;
+    height: 3vw;
+    width: 3vw;
 }
 .videopng{
-    height: 0100px;
-    width: 100px;
+    height: 3vw;
+    width: 3vw;
 }
 #Videos{
-    margin-top: -200px;
-    margin-bottom: -50px;
-    margin-left: 500px;
-    margin-top: -500px;
+    margin-top: -28vw;
+    margin-bottom: -2vw;
+    margin-left: 20vw;
 }
 
 
@@ -150,11 +168,10 @@ html{
 /* solution*/
 #solution{
     text-align: center;
-    margin-top: -50px;
+    margin-top: -2vw;
     font-size: 70px;
     font-family: 'DM Sans', sans-serif;
     background-image: url(bg8.jpg);
-
 }
 
 .dhead{
@@ -169,6 +186,14 @@ html{
     margin-left: 2vw;
     margin-bottom: -20px;
 }
+.doctorpng{
+    margin-top: 4vw;
+    height: 10vw;
+    width: 10vw;
+    margin-right: 15vw;
+    align-items: center;
+    margin-left: 5vw;
+}
 .solutiontext{
     font-size: 1.5vw;
 }
@@ -180,13 +205,13 @@ html{
 /* Reviews */
 #reviews{
     text-align: center;
-    margin-top: -50px;
+    margin-top: 2vw;
     font-size: 150px;
     background-image: url(bg8.jpg);
     font-family: 'DM Sans', sans-serif;
 }
 #text{
-    height: 800px;
-    width: 1900px;
-    font-size: 50px;
+    height: 10vw;
+    width: 40vw;
+    font-size: 2vw;
 }
