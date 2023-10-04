@@ -56,19 +56,28 @@ html{
     display: flex;
     flex-direction: column;
 }
-.image{
-    /* align-items: center; */
-    height: 18vw;
-    width: 18vw;
-    /* flex-direction: column; */
-    margin-top: -1vw;
-    /* margin-left:8.5vw;
-    margin-right: 8.5vw; */
- } 
  #himage1{
-    align-items: center;
-    height: 18vw;
-    width: 18vw;
+    height: 35vw;
+    width: 35vw;
+    margin-left: 30vw;
+}
+#himage2{
+    height: 25vw;
+    width: 25vw;
+   margin-left: 8vw;
+ }
+ #himage3{
+    height: 25vw;
+    width: 25vw;
+   margin-left: 38vw;
+   margin-top: -25vw;
+   
+ }
+ #himage4{
+    height: 25vw;
+    width: 25vw;
+   margin-left: 68vw;
+   margin-top: -25vw;
  }
 .primary{
     margin-bottom: 20px;
@@ -81,7 +90,7 @@ html{
 
 
 
-/* Test section */
+/* Test section*/
 #Test{
     text-align: center;
     justify-content: center;
@@ -104,20 +113,16 @@ html{
 .button{
     align-items: center;
     padding: 6px 20px;
-    border: 2px solid white;
     background-color: burlywood;
-    color: white;
-    color: rgb(0, 0, 0);
     margin: 15px;
     font-size: 1.5vw;
-    border-radius: 25px;
-    cursor: pointer;
-    font-family: 'Skranji', cursive;
     width: 15vw;
     height: 5vw;
     margin-top: 8vw;
+    border-radius: 25px;
+    cursor: pointer;
+    font-family: 'DM Sans', sans-serif;
 }
-
 
 
 
@@ -191,8 +196,11 @@ html{
     height: 10vw;
     width: 10vw;
     margin-right: 15vw;
-    align-items: center;
     margin-left: 5vw;
+}
+.contactinfo{
+ width: 25vw;
+ font-size: 1.5vw;
 }
 .solutiontext{
     font-size: 1.5vw;
